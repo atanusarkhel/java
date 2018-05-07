@@ -15,6 +15,7 @@ class InterfaceAnonymousDemo
 {
   public static void main(String Args[])
   {
-    Student st=new student(){public void show(){System.out.println("main class show method");}};
+    Student st=()->System.out.println("in main method show method");
+    //Student st=()->System.out.println("main class show method");
   }
 }
